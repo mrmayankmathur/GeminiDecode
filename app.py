@@ -1,6 +1,6 @@
 from dotenv import load_dotenv
 
-# To load all environment variables from the .env file
+# Load all environment variables from the .env file
 load_dotenv()
 
 import streamlit as st
@@ -55,6 +55,6 @@ We will upload an image of a document, and you will have to answer any questions
 # If submit button is clicked
 if submit:
     image_data = input_image_details(uploaded_file)
-    response = get_gemini_response(input_prompt, image_data, input_prompt)
+    response = get_gemini_response("Extract and translate the content of this document.", image_data, input_prompt)
     st.subheader("The response is")
     st.write(response)
