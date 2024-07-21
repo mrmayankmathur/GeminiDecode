@@ -48,7 +48,6 @@ if uploaded_file is not None:
         image = image.convert('RGB')
     
     image_path = "uploaded_image.jpg"
-    image.save(image_path)
 
     submit = st.button("Tell me about the document")
     if submit:
