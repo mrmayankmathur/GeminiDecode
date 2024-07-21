@@ -35,7 +35,7 @@ def input_image_details(uploaded_file):
 st.set_page_config(page_title="GeminiDecode: Multilanguage Document Extraction")
 st.header("GeminiDecode: Multilanguage Document Extraction By Gemini Pro")
 text = "Multilanguage Document Extraction by Gemini Pro is a cutting-edge solution designed to extract and process data from documents in multiple languages with unparalleled efficiency. By leveraging advanced natural language processing (NLP) and machine learning algorithms, it seamlessly identifies, extracts, and categorizes information from diverse document formats, ensuring accuracy and speed. Ideal for global businesses, GeminiDecode supports over 50 languages, providing robust data extraction capabilities that streamline workflows, enhance productivity, and improve decision-making processes."
-styled_text = f"<span style='font-family: serif; color: lightgray;'>{text}</span>"
+styled_text = f"<span style='font-family: serif; color: #b7b7b7;'>{text}</span>"
 st.markdown(styled_text, unsafe_allow_html=True)
 
 uploaded_file = st.file_uploader("Choose an image of the document:", type=["jpg", "jpeg", "png"])
