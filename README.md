@@ -154,7 +154,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 E-Mail - [mrmayankmathur@gmail.com](mailto:mrmayankmathur@gmail.com)
 
-Project Link: [https://github.com/mrmayankmathur/sigma](https://github.com/mrmayankmathur/sigma)
+Project Link: [https://github.com/mrmayankmathur/GeminiDecode](https://github.com/mrmayankmathur/GeminiDecode)
 
 <p align="left">
   <img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" 
@@ -163,7 +163,6 @@ Project Link: [https://github.com/mrmayankmathur/sigma](https://github.com/mrmay
 ## Acknowledgements
 
 - [Git](https://git-scm.com/)
-- [Node.js](https://nodejs.org/en)
-- [npm](https://www.npmjs.com/)
+- [Streamlit](https://streamlit.io)
 
 Happy coding!
